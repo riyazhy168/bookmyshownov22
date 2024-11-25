@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Setter
 @Entity
 //@Table(name = "show_seat_mapping")
-public class ShowSeat extends BaseModel {
+public class  ShowSeat extends BaseModel {
     @ManyToOne
     private Show show;
 
